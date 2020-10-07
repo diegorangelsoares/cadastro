@@ -1,4 +1,4 @@
-package com.diego.AnalisePropostaCartao.model;
+package com.diego.cadastro.model;
 
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;

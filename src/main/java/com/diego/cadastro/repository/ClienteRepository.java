@@ -1,10 +1,10 @@
-package com.diego.AnalisePropostaCartao.repository;
+package com.diego.cadastro.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.diego.AnalisePropostaCartao.model.Cliente;
-import com.diego.AnalisePropostaCartao.model.Usuario;
+import com.diego.cadastro.model.Cliente;
+import com.diego.cadastro.model.Usuario;
 
 /**
  * Repositório de clientes

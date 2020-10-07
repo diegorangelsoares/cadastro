@@ -1,6 +1,6 @@
-package com.diego.AnalisePropostaCartao.controller;
+package com.diego.cadastro.controller;
 
-import com.diego.AnalisePropostaCartao.model.Usuario;
+import com.diego.cadastro.model.Usuario;
 
 /**
  * Response responável pelo login

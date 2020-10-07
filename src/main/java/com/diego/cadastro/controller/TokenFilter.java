@@ -1,4 +1,4 @@
-package com.diego.AnalisePropostaCartao.controller;
+package com.diego.cadastro.controller;
 
 import java.io.Console;
 import java.io.IOException;

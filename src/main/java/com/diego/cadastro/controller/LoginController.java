@@ -1,4 +1,4 @@
-package com.diego.AnalisePropostaCartao.controller;
+package com.diego.cadastro.controller;
 
 import java.security.Key;
 import java.util.Date;
@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.diego.AnalisePropostaCartao.model.Usuario;
-import com.diego.AnalisePropostaCartao.service.UsuarioService;
+import com.diego.cadastro.model.Usuario;
+import com.diego.cadastro.service.UsuarioService;
 
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;

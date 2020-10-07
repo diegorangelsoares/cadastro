@@ -1,4 +1,4 @@
-package com.diego.AnalisePropostaCartao.erro;
+package com.diego.cadastro.erro;
 
 
 import org.springframework.http.HttpStatus;

@@ -1,10 +1,10 @@
-package com.diego.AnalisePropostaCartao.resources;
+package com.diego.cadastro.resources;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import com.diego.AnalisePropostaCartao.service.PropostaService;
+import com.diego.cadastro.service.PropostaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
@@ -20,11 +20,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.diego.AnalisePropostaCartao.erro.ResourceNotFoundException;
-import com.diego.AnalisePropostaCartao.model.Proposta;
-import com.diego.AnalisePropostaCartao.model.Usuario;
-import com.diego.AnalisePropostaCartao.repository.PropostaRepository;
-import com.diego.AnalisePropostaCartao.repository.UsuarioRepository;
+import com.diego.cadastro.erro.ResourceNotFoundException;
+import com.diego.cadastro.model.Proposta;
+import com.diego.cadastro.model.Usuario;
+import com.diego.cadastro.repository.PropostaRepository;
+import com.diego.cadastro.repository.UsuarioRepository;
 
 
 /**Classe de tratamentos do Proposta

@@ -1,4 +1,4 @@
-package com.diego.AnalisePropostaCartao.model;
+package com.diego.cadastro.model;
 
 import java.util.Date;
 

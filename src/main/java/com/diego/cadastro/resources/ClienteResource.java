@@ -1,9 +1,9 @@
-package com.diego.AnalisePropostaCartao.resources;
+package com.diego.cadastro.resources;
 
 import java.util.Collection;
 import java.util.List;
 
-import com.diego.AnalisePropostaCartao.service.ClienteService;
+import com.diego.cadastro.service.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
@@ -19,11 +19,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.diego.AnalisePropostaCartao.erro.ResourceNotFoundException;
-import com.diego.AnalisePropostaCartao.model.Cliente;
-import com.diego.AnalisePropostaCartao.model.Proposta;
-import com.diego.AnalisePropostaCartao.repository.ClienteRepository;
-import com.diego.AnalisePropostaCartao.repository.PropostaRepository;
+import com.diego.cadastro.erro.ResourceNotFoundException;
+import com.diego.cadastro.model.Cliente;
+import com.diego.cadastro.model.Proposta;
+import com.diego.cadastro.repository.ClienteRepository;
+import com.diego.cadastro.repository.PropostaRepository;
 
 /**Classe de tratamentos do Cliente
 * @author Diego Rangel

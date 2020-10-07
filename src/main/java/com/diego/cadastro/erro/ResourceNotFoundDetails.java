@@ -1,4 +1,4 @@
-package com.diego.AnalisePropostaCartao.erro;
+package com.diego.cadastro.erro;
 
 /**Classe detalha algumas mensagens
 * @author Diego Rangel

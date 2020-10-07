@@ -1,4 +1,4 @@
-package com.diego.AnalisePropostaCartao.config;
+package com.diego.cadastro.config;
 
 import java.util.ArrayList;
 
@@ -26,7 +26,7 @@ public class SwaggerConfig {
     public Docket productApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.diego.AnalisePropostaCartao"))
+                .apis(RequestHandlerSelectors.basePackage("com.diego.cadastro"))
                 .paths(PathSelectors.regex("/api.*"))
                 .build()
                 .apiInfo(metaInfo());

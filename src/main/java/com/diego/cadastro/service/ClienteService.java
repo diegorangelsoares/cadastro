@@ -1,4 +1,4 @@
-package com.diego.AnalisePropostaCartao.service;
+package com.diego.cadastro.service;
 
 import java.util.Collection;
 import java.util.List;
@@ -6,11 +6,11 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.diego.AnalisePropostaCartao.erro.ResourceNotFoundException;
-import com.diego.AnalisePropostaCartao.model.Cliente;
-import com.diego.AnalisePropostaCartao.model.Proposta;
-import com.diego.AnalisePropostaCartao.repository.ClienteRepository;
-import com.diego.AnalisePropostaCartao.repository.PropostaRepository;
+import com.diego.cadastro.erro.ResourceNotFoundException;
+import com.diego.cadastro.model.Cliente;
+import com.diego.cadastro.model.Proposta;
+import com.diego.cadastro.repository.ClienteRepository;
+import com.diego.cadastro.repository.PropostaRepository;
 
 /**
  * Service de clientes

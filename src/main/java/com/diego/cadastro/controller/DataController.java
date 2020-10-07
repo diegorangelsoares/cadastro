@@ -1,4 +1,4 @@
-package com.diego.AnalisePropostaCartao.controller;
+package com.diego.cadastro.controller;
 
 
 import java.text.DateFormat;

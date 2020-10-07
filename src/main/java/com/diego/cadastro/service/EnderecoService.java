@@ -1,7 +1,7 @@
-package com.diego.AnalisePropostaCartao.service;
+package com.diego.cadastro.service;
 
-import com.diego.AnalisePropostaCartao.model.Cliente;
-import com.diego.AnalisePropostaCartao.model.Endereco;
+import com.diego.cadastro.model.Cliente;
+import com.diego.cadastro.model.Endereco;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

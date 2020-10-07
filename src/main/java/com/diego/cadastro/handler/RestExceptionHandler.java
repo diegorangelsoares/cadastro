@@ -1,4 +1,4 @@
-package com.diego.AnalisePropostaCartao.handler;
+package com.diego.cadastro.handler;
 
 import java.util.Date;
 
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.diego.AnalisePropostaCartao.erro.ResourceNotFoundDetails;
-import com.diego.AnalisePropostaCartao.erro.ResourceNotFoundException;
+import com.diego.cadastro.erro.ResourceNotFoundDetails;
+import com.diego.cadastro.erro.ResourceNotFoundException;
 
 /**
  * @author Diego Rangel - diegorangeljpa@gmail.com

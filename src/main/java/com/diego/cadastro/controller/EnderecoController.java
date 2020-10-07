@@ -1,8 +1,8 @@
-package com.diego.AnalisePropostaCartao.controller;
+package com.diego.cadastro.controller;
 
-import com.diego.AnalisePropostaCartao.model.Cliente;
-import com.diego.AnalisePropostaCartao.model.Endereco;
-import com.diego.AnalisePropostaCartao.service.EnderecoService;
+import com.diego.cadastro.model.Cliente;
+import com.diego.cadastro.model.Endereco;
+import com.diego.cadastro.service.EnderecoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

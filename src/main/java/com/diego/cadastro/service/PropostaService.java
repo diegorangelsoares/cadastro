@@ -1,4 +1,4 @@
-package com.diego.AnalisePropostaCartao.service;
+package com.diego.cadastro.service;
 
 import java.util.Collection;
 import java.util.Date;
@@ -7,9 +7,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.diego.AnalisePropostaCartao.controller.DataController;
-import com.diego.AnalisePropostaCartao.model.Proposta;
-import com.diego.AnalisePropostaCartao.repository.PropostaRepository;
+import com.diego.cadastro.controller.DataController;
+import com.diego.cadastro.model.Proposta;
+import com.diego.cadastro.repository.PropostaRepository;
 
 /**
  * Repositório de Propostas

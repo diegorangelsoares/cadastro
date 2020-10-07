@@ -1,4 +1,4 @@
-package com.diego.AnalisePropostaCartao.controller;
+package com.diego.cadastro.controller;
 
 import java.util.Collection;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.diego.AnalisePropostaCartao.model.Proposta;
-import com.diego.AnalisePropostaCartao.service.PropostaService;
+import com.diego.cadastro.model.Proposta;
+import com.diego.cadastro.service.PropostaService;
 
 /**
  * Controller de propostas
