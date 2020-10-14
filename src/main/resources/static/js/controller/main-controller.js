@@ -54,7 +54,7 @@ appCliente.controller("mainController", function($scope, $route, $location, $rou
 		$http({method:'GET', url:'/api/CountPropostas'})
 		.then(function(response){
 			$scope.quantidadePropostas = response.data;
-			$scope.mensagemQuantidades = $scope.mensagemQuantidades + " Propostas Cadastradas: "+$scope.quantidadePropostas + "  -  ";
+			$scope.mensagemQuantidades = $scope.mensagemQuantidades + "     Propostas Cadastradas: "+$scope.quantidadePropostas + "     ";
 			console.log(response.data);
 			console.log(response.status);
 		}, function (response){
@@ -68,7 +68,7 @@ appCliente.controller("mainController", function($scope, $route, $location, $rou
 		$http({method:'GET', url:'/api/CountClientes'})
 		.then(function(response){
 			$scope.quantidadeClientes = response.data;
-			$scope.mensagemQuantidades = $scope.mensagemQuantidades + " Clientes Cadastrados: "+$scope.quantidadeClientes + "  -  ";
+			$scope.mensagemQuantidades = $scope.mensagemQuantidades + "     Clientes Cadastrados: "+$scope.quantidadeClientes + "     ";
 			console.log(response.data);
 			console.log(response.status);
 		}, function (response){
@@ -82,7 +82,7 @@ appCliente.controller("mainController", function($scope, $route, $location, $rou
 		$http({method:'GET', url:'/api/CountUsuarios'})
 		.then(function(response){
 			$scope.quantidadeUsuarios = response.data;
-			$scope.mensagemQuantidades = $scope.mensagemQuantidades + " Usuários Cadastrados: "+$scope.quantidadeUsuarios;
+			$scope.mensagemQuantidades = $scope.mensagemQuantidades + "     Usuários Cadastrados: "+$scope.quantidadeUsuarios +"     ";
 			console.log(response.data);
 			console.log(response.status);
 		}, function (response){
